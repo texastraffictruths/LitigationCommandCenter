@@ -12,7 +12,7 @@ import pytesseract
 # ---------------------------
 # CONFIG
 # ---------------------------
-st.set_page_config(page_title="AI Counsel", layout="wide")
+st.set_page_config(page_title="AI Litigation Command Center", layout="wide")
 
 BASE_DIR = "cases"
 if not os.path.exists(BASE_DIR):
@@ -32,7 +32,17 @@ def create_case(case_title):
         "timeline": [],
         "evidence": [],
         "violations": [],
-        "checklist": []
+        "checklist": [],
+        "outputs": {
+            "strategy": "",
+            "civil_rights": "",
+            "constitution": "",
+            "research": "",
+            "drafts": "",
+            "citations": "",
+            "compliance": "",
+            "final_review": ""
+        }
     }
     save_case(case_id, case_data)
     return case_id
@@ -60,76 +70,33 @@ def extract_text_from_file(file):
         text += pytesseract.image_to_string(img)
     return text.strip()
 
-def classify_text(raw_text):
-    summary = raw_text[:500] + "..." if len(raw_text) > 500 else raw_text
-    timeline = [line for line in raw_text.split("\n") if any(word in line.lower() for word in ["date","time","on","at"])]
-    evidence = [line for line in raw_text.split("\n") if "exhibit" in line.lower() or "photo" in line.lower()]
-    violations = [line for line in raw_text.split("\n") if any(word in line.lower() for word in ["violation","amendment","rights"])]
-    return summary, timeline, evidence, violations
-
-# ---------------------------
-# HANDLER FUNCTIONS
-# ---------------------------
-def add_checklist_item(item):
+def update_checklist(item):
     if item not in case_data["checklist"]:
         case_data["checklist"].append(item)
+        save_case(case_id, case_data)
 
-def process_user_input(text):
-    lower_text = text.lower()
-    case_data["summary"] += f"\nUser: {text}"
-
-    # Detect timeline (dates)
-    if re.search(r'\d{1,2}[/-]\d{1,2}[/-]\d{2,4}', lower_text) or any(m in lower_text for m in ["january","february","march","april","may","june","july","august","september","october","november","december"]):
-        case_data["timeline"].append(text)
-    else:
-        add_checklist_item("Confirm date and time of incident")
-
-    # Evidence detection
-    if any(word in lower_text for word in ["photo","screenshot","exhibit","document","receipt"]):
-        case_data["evidence"].append(text)
-        add_checklist_item("Upload referenced evidence")
-
-    # Violations detection
-    if any(word in lower_text for word in ["rights","amendment","constitutional","illegal","violation","due process","excessive force"]):
-        case_data["violations"].append(text)
-
+def log_output(agent, content):
+    case_data["outputs"][agent] = content
     save_case(case_id, case_data)
 
-def generate_follow_up():
-    if "Confirm date and time of incident" in case_data["checklist"]:
-        return "Can you provide the exact date and time of the incident?"
-    elif not case_data["violations"]:
-        return "Do you believe any of your constitutional rights were impacted? If so, which ones?"
-    elif not case_data["evidence"]:
-        return "Do you have any evidence like photos or documents?"
-    else:
-        return "Please walk me through the sequence of events step by step."
-
-def explain_concept(concept):
-    law_library = {
-        "excessive force": {
-            "definition": "Excessive force refers to force that exceeds what a reasonable officer would deem necessary under the circumstances.",
-            "source": "Graham v. Connor, 490 U.S. 386 (1989)"
-        },
-        "due process": {
-            "definition": "Due process means the government must follow fair and consistent procedures before depriving you of life, liberty, or property.",
-            "source": "U.S. Const. amend. XIV"
-        },
-        "section 1983": {
-            "definition": "42 U.S.C. § 1983 provides a civil cause of action for the deprivation of constitutional rights under color of state law.",
-            "source": "42 U.S.C. § 1983"
-        }
-    }
-    concept_key = concept.lower().strip()
-    if concept_key in law_library:
-        return f"**Definition:** {law_library[concept_key]['definition']}\n**Source:** {law_library[concept_key]['source']}"
-    else:
-        return "⚠ No verified source found for that concept. Please confirm manually."
+# ---------------------------
+# PRELOADED PROMPTS FOR AGENTS
+# ---------------------------
+AGENT_PROMPTS = {
+    "Maxwell (Strategy)": "Build a litigation strategy matrix for this case. Identify claims, legal standards, anticipated defenses, and discovery targets.",
+    "Justice (Civil Rights)": "Analyze compliance with 42 U.S.C. §1983 and list missing civil rights elements.",
+    "Patriot (Constitution)": "Analyze constitutional conflicts and suggest additional Texas and U.S. constitutional arguments.",
+    "Atlas (Research)": "Provide 3 controlling cases on the key issues with proper citations.",
+    "Lexi (Drafting)": "Draft a Rule-compliant complaint or motion using the case facts and provided legal authority.",
+    "Caleb (Citations)": "Verify all citations for accuracy and Bluebook compliance. Flag invalid authorities.",
+    "Regina (Compliance)": "Audit this draft against FRCP and local court rules. List all procedural defects.",
+    "Dominic (Final Review)": "Perform final litigation readiness review: structure, argument layering, compliance lock."
+}
 
 # ---------------------------
 # UI LAYOUT
 # ---------------------------
-st.title("⚖️ AI Counsel - Your Legal Second Chair")
+st.title("⚖️ AI Litigation Command Center")
 
 menu = st.sidebar.radio("Navigation", ["Dashboard", "Open Case"])
 
@@ -164,62 +131,48 @@ if "active_case" in st.session_state:
     if uploaded_file:
         raw_text = extract_text_from_file(uploaded_file)
         if raw_text:
-            summary, timeline, evidence, violations = classify_text(raw_text)
-            case_data["summary"] += "\n" + summary
-            case_data["timeline"].extend(timeline)
-            case_data["evidence"].extend(evidence)
-            case_data["violations"].extend(violations)
+            case_data["summary"] += "\n" + raw_text[:500]  # Store snippet
             save_case(case_id, case_data)
-            st.success("✅ File processed and data updated.")
+            st.success("✅ File processed and added to Summary.")
 
-    # Handler Section
-    st.subheader("🧑‍⚖️ Handler Interview Mode")
-    if "chat_log" not in st.session_state:
-        st.session_state["chat_log"] = []
+    # ---------------------------
+    # ORCHESTRATION WORKFLOW UI
+    # ---------------------------
+    st.markdown("### 🧠 Litigation Workflow Engine")
+    st.write("Select an Agent to Execute a Task")
 
-    user_input = st.text_input("Describe what happened or ask a legal term:")
-    if st.button("Submit"):
-        if user_input.strip():
-            st.session_state["chat_log"].append({"role":"user","text":user_input})
-            process_user_input(user_input)
+    agents = list(AGENT_PROMPTS.keys())
+    selected_agent = st.selectbox("Choose Agent", agents)
+    custom_input = st.text_area("Task Details or Leave Blank to Use Default Prompt")
 
-            if "what is" in user_input.lower() or "explain" in user_input.lower():
-                concept = user_input.split(" ", 2)[-1]
-                response = explain_concept(concept)
-            else:
-                response = generate_follow_up()
+    if st.button("Run Task"):
+        # For now, simulate agent response (future: connect to LLM)
+        task_prompt = custom_input if custom_input else AGENT_PROMPTS[selected_agent]
+        response = f"### {selected_agent} Output\n\nPrompt:\n{task_prompt}\n\n(This will be replaced with AI-generated content connected to verified law.)"
+        # Save to appropriate section
+        agent_key = selected_agent.split(" ")[0].lower()
+        log_output(agent_key, response)
+        st.success(f"✅ {selected_agent} task completed. Output saved.")
 
-            st.session_state["chat_log"].append({"role":"handler","text":response})
-
-    # Display chat history
-    for msg in st.session_state["chat_log"]:
-        if msg["role"] == "user":
-            st.write(f"**You:** {msg['text']}")
-        else:
-            st.info(f"Handler: {msg['text']}")
-
-    # Quick Actions
-    st.markdown("### ⚡ Quick Actions")
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        if st.button("Explain 'Section 1983'"):
-            response = explain_concept("section 1983")
-            st.session_state["chat_log"].append({"role":"handler","text":response})
-    with col2:
-        if st.button("Summarize Facts"):
-            summary_preview = case_data["summary"][:500] + "..." if len(case_data["summary"]) > 500 else case_data["summary"]
-            st.session_state["chat_log"].append({"role":"handler","text":f"Here's a quick summary:\n{summary_preview}"})
-    with col3:
-        if st.button("Show Missing Info"):
-            if case_data["checklist"]:
-                st.session_state["chat_log"].append({"role":"handler","text":f"You still need to complete:\n{', '.join(case_data['checklist'])}"})
-            else:
-                st.session_state["chat_log"].append({"role":"handler","text":"All checklist items completed so far!"})
-
-    # Show Tabs
-    tabs = st.tabs(["Summary","Timeline","Evidence","Violations","Checklist"])
-    with tabs[0]: st.text_area("Summary", value=case_data["summary"], height=300)
-    with tabs[1]: st.write(case_data["timeline"])
-    with tabs[2]: st.write(case_data["evidence"])
-    with tabs[3]: st.write(case_data["violations"])
-    with tabs[4]: st.write(case_data["checklist"])
+    # ---------------------------
+    # OUTPUT DASHBOARD
+    # ---------------------------
+    tabs = st.tabs(["Strategy", "Civil Rights", "Constitution", "Research", "Drafts", "Citations", "Compliance", "Final Review", "Checklist"])
+    with tabs[0]:
+        st.markdown(case_data["outputs"]["strategy"] or "No strategy yet.")
+    with tabs[1]:
+        st.markdown(case_data["outputs"]["civil_rights"] or "No civil rights analysis yet.")
+    with tabs[2]:
+        st.markdown(case_data["outputs"]["constitution"] or "No constitutional analysis yet.")
+    with tabs[3]:
+        st.markdown(case_data["outputs"]["research"] or "No research yet.")
+    with tabs[4]:
+        st.markdown(case_data["outputs"]["drafts"] or "No drafts yet.")
+    with tabs[5]:
+        st.markdown(case_data["outputs"]["citations"] or "No citation check yet.")
+    with tabs[6]:
+        st.markdown(case_data["outputs"]["compliance"] or "No compliance report yet.")
+    with tabs[7]:
+        st.markdown(case_data["outputs"]["final_review"] or "No final review yet.")
+    with tabs[8]:
+        st.write(case_data["checklist"] or "Checklist empty.")
