@@ -1,3 +1,11 @@
 streamlit
 PyPDF2
-python-docx 
+python-docx
+pytesseract
+Pillow
+pdfplumber
+openpyxl
+pandas
+numpy
+matplotlib
+requests
