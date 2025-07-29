@@ -1,0 +1,3 @@
+git clone <your-backend-repo-url>
+cd ai-counsel-backend
+pip install -r requirements.txt
