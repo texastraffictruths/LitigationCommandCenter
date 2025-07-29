@@ -1,0 +1,69 @@
+from fastapi import FastAPI
+from pydantic import BaseModel
+from typing import List, Dict
+import uvicorn
+
+app = FastAPI(title="AI Counsel Backend", version="1.0")
+
+# ---------------------------
+# Request/Response Models
+# ---------------------------
+class QueryRequest(BaseModel):
+    agent: str
+    question: str
+    jurisdiction: str
+    facts: str
+
+class Citation(BaseModel):
+    title: str
+    url: str
+
+class QueryResponse(BaseModel):
+    agent: str
+    answer: str
+    citations: List[Citation]
+    confidence: float
+
+# ---------------------------
+# Agent Prompt Templates (Future: Move to agents/*.py)
+# ---------------------------
+AGENT_PROMPTS = {
+    "Maxwell": "Create litigation strategy with claims, defenses, discovery targets.",
+    "Justice": "Analyze compliance with 42 U.S.C. §1983 and identify missing elements.",
+    "Patriot": "Analyze constitutional conflicts and suggest arguments.",
+    "Atlas": "Retrieve controlling cases with citations.",
+    "Lexi": "Draft a rule-compliant motion or complaint using facts and law.",
+    "Caleb": "Verify citations for accuracy and format.",
+    "Regina": "Audit draft for compliance with FRCP and local rules.",
+    "Dominic": "Perform final litigation readiness review."
+}
+
+# ---------------------------
+# /query Endpoint
+# ---------------------------
+@app.post("/query", response_model=QueryResponse)
+async def query_legal_agent(request: QueryRequest):
+    # For now, return mock response (later will run LangChain RAG)
+    agent_name = request.agent
+    prompt = AGENT_PROMPTS.get(agent_name, "Unknown agent task.")
+    
+    # Simulated answer
+    answer = f"### {agent_name} Response\n\nPrompt Used:\n{prompt}\n\nQuestion:\n{request.question}\n\nFacts:\n{request.facts}\n\n(This will later include verified law and citations.)"
+    
+    citations = [
+        {"title": "42 U.S.C. §1983", "url": "https://law.cornell.edu/uscode/text/42/1983"},
+        {"title": "Graham v. Connor, 490 U.S. 386 (1989)", "url": "https://supreme.justia.com/cases/federal/us/490/386/"}
+    ]
+    
+    return QueryResponse(
+        agent=agent_name,
+        answer=answer,
+        citations=citations,
+        confidence=0.95
+    )
+
+# ---------------------------
+# Run Server
+# ---------------------------
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
