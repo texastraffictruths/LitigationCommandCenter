@@ -9,3 +9,12 @@ pandas
 numpy
 matplotlib
 requests
+fastapi
+uvicorn
+pydantic
+langchain
+chromadb
+sentence-transformers
+requests
+beautifulsoup4
+huggingface_hub
