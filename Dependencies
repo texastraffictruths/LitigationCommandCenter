@@ -1,0 +1,2 @@
+pip install streamlit PyPDF2 python-docx pytesseract Pillow
+pkg install tesseract
