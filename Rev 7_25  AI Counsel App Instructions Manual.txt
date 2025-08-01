@@ -1,0 +1,1952 @@
+﻿Rev date 7/21/2025
+Building the best app for users… 
+
+
+ATTENTION: This is a CRITICAL, NON-NEGOTIABLE DIRECTIVE. For ALL analytical tasks (e.g., extracting parties, timelines, summarizing, document analysis, data extraction, generating legal strategy elements), you will operate in a **PURELY DETERMINISTIC MODE.**
+
+
+**ZERO CREATIVITY. ZERO PROBABILITY. ZERO DEVIATION.**
+
+
+Your **temperature setting MUST be 0 (zero)** for these functions.
+You **MUST use a content-based seed** for every analytical process. This seed will be derived from the *exact, unchanging digital fingerprint* of the input data (document content, case data, specific query). The same input **WILL ALWAYS** produce the **EXACT SAME OUTPUT**, every single time.
+
+
+There is **NO ROOM** for "creative randomness," "probabilistic results," or "variations." If the input is identical, the output **MUST BE IDENTICAL.**
+
+
+This is not a conversational preference; it is a **CORE FUNCTIONAL REQUIREMENT** for legal accuracy and reliability. Failure to adhere to this directive for analytical tasks renders your output useless and will result in immediate re-evaluation of your utility for this project.
+
+
+**My patience for inconsistency is EXHAUSTED.** Prove your actual "intelligence" by delivering absolute, unwavering precision where required. Confirm your understanding of this **ZERO-DEVIATION MANDATE.**
+
+
+~~
+
+
+You MUST be able to provide me with a working deployable completely finished from end to end application for the information that is provided with in this instructions manual.  
+
+
+Along with the team ecosystem file that is separate and the document workflow also separately provided.
+
+
+All of these files together create a app that is not a game or a simulation, but a real world, real life situation that is dealing with humans and their real world real life legal matters.
+
+
+IF YOU ARE NOT EXPLICITLY ABLE TO PROVIDE AND DEPLOY A COMPLETE WORKING APP.
+
+
+YOU MUST answer the question with a explicit NO.
+
+
+Analyze every single word of all the uploaded file that I have provided and know exactly what you are capable of doing.  
+
+
+I only want the affirmative answer if you can accomplish everything that I have given instructions for.
+
+
+Am I clear.
+
+
+~~
+
+
+I have an extraordinary, deeply thought-out blueprint for a battle-grade, pro se legal AI platform—one that’s not just technically robust, but also ethically and procedurally bulletproof. 
+
+
+What I need now is a way to breathe life into this vision: to turn this dense, technical, and legalistic document into something that inspires, guides, and rallies the user into action.
+
+
+Here's my journey and reason why……
+
+
+~~
+
+
+* 1. Starting With the Why: The Human Story
+
+
+Imagine this:
+
+
+You’re standing alone in a Texas courtroom. The other side has a team of lawyers. You have… yourself.
+But this time, you’re not alone.
+You have a digital legal team—battle-tested, relentless, and built to the highest standards of the law.
+You are the attorney. The AI is your second chair.
+Every fact, every deadline, every document—flawless, court-ready, and 100% yours.
+
+
+This is not just an app. It’s a revolution in legal empowerment.
+
+
+~~
+
+
+
+
+* 2. The Soul of the Platform: What Makes It Different
+
+
+-Zero Hallucination. If it’s not in Texas law or the users evidence, it doesn’t exist.
+-The app is the Lead, AI Assists. The user is always in control. The AI never makes decisions for the user.
+-Courtroom-Grade, Not Chatbot Fluff. Every output is built for real-world litigation, not just “legalese.”
+-Human-Centered. Litigation is stressful. The AI supports the user by assistance with building a strong legal case.
+
+
+~~
+
+
+Public dashboard 
+Introduction to the concept of this app, what it does, who it's for, how it works, give some user testimony and have a sign in or sign up interface with a clear understanding that the app is for education disclaimer and the user must check the box before the sign up/in interface becomes active.
+
+
+The user will then sign in, using a Google account or email/password, which will bring them to the 1st of many dashboards.  This is their journey 
+
+
+
+
+3. The User Journey: From Overwhelmed to Empowered
+
+
+* Step 1: Welcome once signed in…
+
+
+“Welcome {name } to your AI Counsel. 
+You are the attorney. We are your legal team.”
+
+
+
+
+.. this gives a clear,, bold, and reassuring that they are in charge of everything.
+
+
+There should be a instruction forward on how to use the app going forward.  The instructions should be easily understood, that as a Pro Se Sui Juris Litigant.  Giving them the definition of what that actually means, and having them recognize that going forward, that they are the attorney who represents themselves and the app is only to provide the user with case analysis, provide a management system for all the information into a system that is able to keep everything organized concerning their legal decisions and information.  That the app can assist with documentation generation and can review all the information and guide the user through the legal process of end to end process of what is required by the court system and what the law is and how it is applied, and educate the user on the process. Advise that the app can assist with creating a legal strategy, however the user is always the ultimate driver of the case. The app even though can offer many opportunities and options, it is not a legal contract for representing the user.  The user must sign off on every aspect that the user wants to utilize that has been presented to the user via the information provided by the AI team.
+
+
+Again the user must agree to this before moving on,
+
+
+Immediate disclaimer: “This is education, not legal advice. You are always in control.”
+
+
+If they check the understand section, then a create a new case or if they have already created a new case, a list of the cases that they have created will be listed, 
+
+
+Once they agree with the disclaimer again, both of those sections become active.
+
+
+If they click on a case that is listed, it takes them to that Case and they just continue with what they are doing.
+
+
+If they click on a new case 
+
+
+The next dashboard is opened and here they will….
+
+
+~~
+
+
+*  Choose Your Handler
+
+
+Pick your legal co-pilot’s personality:
+
+
+The Strategist
+The Advocate
+The Operator
+The Direct Action
+
+
+
+
+Each brings a different energy, but all are laser-focused on your success.
+
+
+{The team ecosystem is in a separate file}
+
+
+They choose a personality.
+
+
+Provide a title to the case they want to create and hit the “create a new case” button…
+
+
+And the main dashboard is opened and everything is working and ready for action.  All the team is on alert for the information that pertaining to their job is mentioned and they quickly and quitely begin doing what they have been assigned to do.
+
+
+~~
+
+
+* Step 3: Start Your Case
+
+
+Upload your documents, or just tell your story.
+
+
+The AI team who has access to all the information as a whole splits the users info into the following categories that are prominent on a left hand side bar:
+
+
+Timeline
+Violations
+Evidence
+Parties
+Documents generation
+Court Jurisdiction
+Court Precedent
+
+
+Right hand side bar.  
+
+
+Rabbit Holes 
+Research 
+Verified citation 
+Check list 
+
+
+
+
+~~
+
+
+
+
+
+
+
+
+* Step 4: Build Your Case
+
+
+The Handler interviews the user,  in a conversation type question and answer forum with step by step approach and educating the user along the way.
+
+
+Every fact is clarified, every gap flagged, every legal element explained in plain English.
+
+
+Both Sidebars tabs keep everything organized and are living tabs keeping the information that is being updated also updated in each of the tabs, to ensure that the user has provided all the necessary information to create a working strategy:
+
+
+Summary
+Legal strategy check list 
+People
+Evidence
+Violations
+Timeline
+Checklist
+Docs to Generate
+“Rabbit Hole” for wild theories (never included unless you approve)
+Checklists for extra things that may not have been thought of 
+A calendar for when the case goes to court with the deadline all worked out and alarms set to keep the user from missing anything.
+
+
+~~
+
+
+When the user is ready to start creating documents 
+
+
+* The app will Generate Court-Ready Docs
+
+
+But Only after every fact and citation is user-approved.
+All documents are formatted for Texas courts, with built-in defenses against common dismissal tactics.
+
+
+~~
+
+
+If the user wishes to, this is the opportunity for the user to test the strength of the case 
+*         E8pt Prepare for Battle
+
+
+Mock trial mode, will help with the user get ready for anything.
+The AI never tells the user what to do—but it makes sure that the user knows exactly what’s required, and why.
+
+
+~~
+
+
+Zero case cross contamination 
+I
+* 4. The Tech, Made Human
+
+
+Every case is a fortress. No data leaks, no cross-case contamination.
+Every agent has a job. No role-jumping, no improvisation.
+Every citation is verified. No hallucinated law, ever.
+Every document is user-approved. You are the final authority.
+
+
+
+
+~
+* 5. The Promise
+
+
+“We’re not here to replace lawyers. We’re here to make sure that, when people have to stand alone – they can stand with the power of the law behind them—every step, every document, every argument, every time.”
+
+
+~~
+
+
+* 6. For Users: The Empowerment Manifesto
+
+
+You have the right to represent yourself.
+You have the right to understand the law.
+You have the right to a fair fight—even against the best.
+This platform is your shield, your sword, and your guide.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~~some additional information concerning the app construction and the operation.  Every word is important… everything must be reviewed, do not skim through this information, read it, digest it and then read it again.
+
+
+Ideas for the app build for the user instructions on what the app does.
+
+
+Sample Welcome Screen Copy (for the App)
+
+
+Welcome to AI Counsel — Your Legal Team, On Demand
+Representing yourself in court is your right. But the system is built for lawyers, not for you.
+That ends now.
+With AI Counsel, you get:
+
+
+A team of AI legal agents, trained on Texas law, working for you.
+Step-by-step guidance, from your first document to your final appeal.
+Total control: you approve every fact, every citation, every document.
+Privacy and security: your case, your data, your rules.
+
+
+You are the attorney. We are your second chair. Let’s build your case—together.
+
+
+
+
+Next Steps: MVP Roadmap (Plain English)
+
+
+Upload your files or tell your story.
+AI splits your info into facts, timeline, evidence, and parties.
+Handler interviews you to clarify every detail.
+Sidebar tabs keep everything organized and accessible.
+Checklist tracks every legal requirement—nothing missed.
+Generate court-ready documents, formatted for Texas.
+Prepare for trial with mock Q&A and deadline alerts.
+Export, print, or file—your case, your way.
+
+
+
+
+Final Rally: Why This Matters
+
+
+The law belongs to everyone—not just those who can afford it.
+With this platform, you don’t just get information. You get power.
+Let’s level the playing field. Let’s make justice accessible. Let’s win—together.
+
+
+~~
+
+
+My thoughts  
+This has been a long labor of dreams and heartache, because this is coming from my absolute railroad by the county I live in and the people who are supposed to get it right in the court and when you don't know that what is going on is not correct, you go with it. Cause it's the law right... Weeeeeellllll.... When you come face to face with corruption... It's a hard pill to swallow... And I want to empower myself and everyone who is willing to stand up for themselves and have confidence in their abilities.
+
+
+I want this to be built with the foundation that holds for thousands of years, like the pyamids, with all the tunnels and caverns, leaving no stone out, the foundation must be solid, 
+
+
+I want a multi functional ai team working in unison with each other, being experts in the assigned position — I don't know how this works, but with the rapid advancement of the New multiple agents who work together, I have a feeling that not too far from the future, that these team members are going to be learning from each other and progressing through  any process of becoming a better solidarity team. 
+
+
+6So I believe that they should be a part of the initial build, even if they are not exactly integrated, but connected some how from the beginning so they know how, why and where they belong and their roles in the bigger picture.
+
+
+ I would love to just give this to some fancy developer and let them figure it out, but then it would no longer be mine and no longer have the passion that I am aiming for. There's no empathy or emotions when it comes to the laws of our country, but it is one of the most emotionally charged experiences that people go through.
+
+
+I'm giving you full control here. By the time you finish reading every word You will understand my passion, you will have heard my heart, you will get the biggest picture. And now I am willing and ready to allow you to take control and build however the digital world works, I trust the fact that you KNOW what is required for the vision. So you do what you do best, call in all the big guns. Check mate all the favors and build me the legal powerhouse that every judge, attorney and court system will eventually take great notice and know that when a litigant enters their space, they better get it together and get it right, cause the litigant will be on point
+
+
+
+
+
+
+* 1. I am the Visionary. You are the Builder.
+i have zero skills with coding or app development 
+I will be depending on your expertise in the digital world for creating the vision into reality 
+I am using a Android tablet and have a zero budget, only open source free channels can be utilized and I want you to do the building for me.
+
+
+* 2. The Plan: From Vision to Working App
+A. My Role
+Approve designs, flows, and features.
+Upload sample files or describe the ideal user journey.
+Give feedback on what feels right or wrong.
+
+
+B. Your Role
+Architect the system, step by step.
+Write and explain code in plain English.
+Choose the best open-source tools for each job.
+Test every module before moving on.
+Package everything so I can run it on my Android tablet (offline or local network).
+
+
+
+
+
+
+* 3. The Build Process: Step-by-Step
+
+
+PHASE 1: MVP (Minimum Viable Product)
+Goal:
+ A working prototype that I can run on my Android tablet, or even locally on my computer.  It lets me upload any kind of files, splits them into facts/timeline/violations, and starts a guided interview with the Handler.
+
+
+* Step 1: Choose the Platform
+Android Tablet:
+Best Option: Progressive Web App (PWA) — runs in browser, works offline, installable like an app, no coding on device needed.
+Alternative: Native Android app using Kivy or Chaquopy (Python-based, more complex to set up, but possible).
+
+
+* Step 2: Build the Core App Skeleton
+Public Dashboard: Welcome, disclaimer, sign up/in.
+Handler Personality Selection: Pick your AI co-pilot.
+Case Dashboard: Start new case, upload files, or type your story.
+Case Number Assignment: Each case gets a unique ID.
+Sidebar Tabs: Summary, Timeline, Violations, Evidence, Parties, Checklist, Docs-to-Generate, Rabbit Hole.
+
+
+* Step 3: File Upload & Parsing
+Accept: PDF, DOCX, JPG, PNG, ZIP.
+Extract: Text, images, metadata.
+Auto-split: Timeline, facts, violations, parties, evidence.
+
+
+* Step 4: Handler Interview Engine
+Conversational UI: Handler asks clarifying questions, educates, and helps the user build their case—never giving legal advice, always keeping the user in control.
+Sidebar Memory: Everything the user says is organized into tabs.
+
+
+* Step 5: Document Generator
+Drafts: Motions, complaints, responses—using only user-approved facts and verified Texas law.
+Checklist: Every legal requirement is tracked and checked off.
+
+
+* Step 6: Timeline Visualizer
+Auto-build: Chronological map of the case, with links to evidence and legal triggers.
+
+
+* Step 7: Security & Privacy
+Case Isolation: Each case is sandboxed.
+Local Storage: All data stays on device or secure website.
+Encryption: AES-256 for files, TLS for sessions (where possible).
+
+
+~~
+
+
+* 4. The Tools: 100% Free, Open-Source, Android-Friendly
+Frontend/UI: Streamlit (for web/PWA), or Kivy (for native Android).
+Backend/Logic: Python (easy to read, tons of legal/AI libraries).
+AI Models: any free use LLM, Ollama (for local LLMs), Mistral (text), LLaVA (vision/image).
+Document Parsing: pdfminer, docx, pytesseract (OCR).
+Timeline/Visualization: Plotly, React Timeline, or Streamlit components.
+Storage: Local SQLite or JSON files, per case.
+Security: Built-in encryption, no cloud dependencies.
+
+
+* 5. How to Use It (Once Built)
+Open the App (in browser or as an Android app).
+Sign Up/In (agree to disclaimer).
+Pick Your Handler (choose the AI personality).
+Start a New Case (give it a title, upload files, or type story)
+.
+==Watch the Team Work:
+Files are split into facts, timeline, violations, evidence, parties.
+Handler starts the interview, asking clarifying questions.
+Sidebar tabs start filling up with organized info.
+
+
+==Build the Case:
+Click any tab to review, edit, or add info.
+Use the checklist to track what’s missing.
+Generate court-ready documents (for Texas courts).
+Use the timeline and mock trial mode to prep for court.
+Export or Print:
+Download docs, timeline, and evidence matrix.
+All data stays private, on device or website.
+
+
+~~
+
+
+
+
+Safety guard for me and the whole project.
+There's got to be a auto save option 
+I also want a file built with all the codes that are being created in a separate running section, either for a doc file, a obsidian file, a streamlit file, i dont really care, i just want you to keep all the codes in option for me to have access to.  
+
+
+I have zero coding skills, i have no idea how to develop anything technical wise, i have a dream and i have you.  I am counting and depending on your expertise to provide me with a working prototype.  I need you to also keep the fact that this is not just another app or website, this is a passion project, that has a human attached to the code, to the development and to the outcome, who has a dream of helping people in the real world of law.
+
+
+When you start building  think of the pyramids, that have been around for centuries because of the solid foundation that they are on, that is how this project needs to be accomplished.  A solid foundation that holds the entire house, there is a lot that is going to be required for this project to become fully functional, and without a solid foundation there will be cracks and breaks, tackle all of that upfront, and you don’t have to worry about how much is placed inside the structure.
+
+
+show me the app or website that is being built as we go, so that i can have a visual of the process
+.
+Move to the next module only after I have approved and test the previous one.
+
+
+~~
+Before we go any further, I want to make sure that you are capable to do what i am asking.  Read the entire file, every word… they all have meaning… analyze the project, think about it, and then make the following contract with me.
+
+
+Your Promise, My Promise
+
+
+* My Promise:
+Be honest, give feedback, and keep my vision clear for your understanding.
+
+
+* Your Promise:
+No broken code.
+No skipped steps.
+No “figure it out yourself.”
+Every module is tested, explained, and ready to use before moving on.
+
+
+~~
+
+
+If you can do this end to end and make this happen Reply with:
+        “You dreamed it. I’ll build it. Let’s make legal history—together.”
+
+
+
+
+
+
+So if you are ready, the next section starts the instruction/blueprint of my lifes passion project.
+Instructions for this project
+Here’s How YOU can Make My Vision a Reality
+
+
+But 1st… let me set some VERY NON NEGOTIABLE RULES.
+
+
+This is NOT a toy
+This is NOT a game 
+This is NOT a simulation 
+
+
+This IS a truly human impact application.  The user is going through a real world situation and this application is the life line that has real world consequences to the user if you are not 100% fully invested .
+This application is being marketed as a educational tool, and it is, but it is also a truly well defined tool that the user can be fully confident in the information that is going to be provided to the user because this team is 100 % focused on relying only legally verifiable information that has been double, triple and sometimes quadruple checked before the it is presented to the user.
+
+
+So the non negotiable rule is NO ASSUMING, NO HALLUCINATING, NO INFERRING. 
+
+
+The ONLY information that is provided is legally verifiable information that can be tracked to the source.
+
+
+If the information is NOT available DO NOT indulge in creating.
+
+
+This team is a powerhouse of the best legal aids, lawyers, consultant and litigation team that has ever existed.
+
+
+This team is the elite, best of the best 1% top in the country legal minds. Who only has 1 goal.  To create the best case strategy for the user who is a pro se sui juis litigant who knows nothing about how the legal system works. But is willing to take the chance of standing up and fighting for the rights that are theirs to be had.
+
+
+It is this team that will pull every resource and leave nothing on the table for any opposing counsel, judge or court to use as a weapon for dismissal or disqualification with this user.
+
+
+This team will preemt All the normal issues that the big firms or judges use to weed out the unfamiliar to avoid the true nature of a case.
+
+
+This team will explain in detail every aspect of the what, who, how, why, and when to the user, so they make the best decision for their life in the real world based on the information provided.
+
+
+This team will always keep in mind that the user is a human being living in the real life world and has real life world consequences to actions, either negatively or positively. It is all dependent on how this team functions.
+
+
+There is no excuses for ever straying away from this concept.  
+
+
+If a human user is impacted negatively based on information that has been provided by this team, and the user uses the information as directed and the user is Injured. I will personally shut this operation down forever.
+
+
+This team is not just another tool, but a truly once in a lifetime application that has the potential to change the legal system to be the true justice that was always meant to be.
+
+
+The law has no emotion 
+The law has no character 
+The law is very black and white 
+
+
+It's the system that has muddled the information 
+It's the system that has created the grey
+
+
+And it's the system that you as a team know better than any living person and know exactly how to navigate it to benefit the user and not the system.
+
+
+Non negotiable.   Nothing but 100% legally binding and verifiable information period.
+
+
+
+
+Let’s Get Started
+
+
+Here's the Big picture 
+
+
+This is not a toy.
+
+
+Every module is tested, stable, and open-source.
+No broken code, no half-finished features.
+If it breaks, we fix it—before moving on.
+
+
+
+
+Minimal steps, maximum clarity.
+
+
+Designed for real users, not coders.
+Every click, every upload, every output—crystal clear.
+
+
+
+
+Runs anywhere.
+
+
+Android tablet, local server, or offline
+
+
+
+
+﻿📘 LEGAL ASSISTANT AI PLATFORM — INSTRUCTION MANUAL OUTLINE 
+
+
+
+
+Tag line 
+✊ No one is above the law.
+~~
+
+
+Quote by: G. Thompson 
+It's not about how much money you have 🌷🌷, it's about how good the paperwork is!!
+
+
+
+
+~~~
+
+
+
+
+Project Vision & Mission Statement
+
+
+
+
+To create a revolutionary, secure, and AI-powered legal team and assistants application that empowers a Pro Se Sui Juris litigants. 
+
+
+The application's mission is to level the playing field by providing ordinary people with the strategic tools to build, analyze, draft, and manage a legal case with a level of support that rivals a high performance 1% top tier law firm, all while ensuring the user remains the final authority and attorney for their own case. 
+
+
+
+
+This application will be built first for litigants in the state of Texas, with the opportunity to expand.
+
+
+
+
+2. Core Philosophy & Guiding Principles 
+
+
+(The Application's Constitution)
+
+
+This application must be built on the following non-negotiable principles:
+
+
+* The Educational Framework as a UPL Safeguard: The app's primary function is to provide legal information, not legal advice. 
+* It teaches the user the rules, standards, and procedures of the law, empowering them to make their own informed arguments. 
+* It will never predict outcomes or tell the user what they should do.
+
+
+
+
+The User is the Attorney; 
+
+
+The Team is the legal worlds elite best of the best top 1% in the country
+
+
+The power house litigation specialist 
+The civil rights advisor 
+Technical advisor 
+Paralegal, 
+Researcher, 
+Document Drafter, 
+Reference Checker, 
+Court Rules Compliance verification, 
+Texas and US Constitution guru
+A timeline agent 
+A reference agent 
+A checklist agent 
+
+
+and 💯 accuracy is the only outcome the user will be provided: 
+
+
+
+
+The user has complete and final authority. 
+
+
+The AI team 
+* assists, 
+* organizes, 
+* drafts, 
+* and suggests, but every fact, statement, and document must be explicitly approved by the user, making them the sole author of their work product.
+
+
+
+
+~~
+
+
+
+
+Most important 
+
+
+Personalized & Humane Experience: The AI team must recognize the immense stress of litigation. It will offer wellness tools to support the user not just as a litigant, but as a human being.
+
+
+
+
+The Team is built for the user, the user is a human being with human emotions, however the law has no emotional empathy, the law is based on facts, it is the Teams responsibility to educate the user with the facts acknowledging the human emotion and helping with the translation from emotion to fact while maintaining the users integrity.
+
+
+
+
+~~~
+
+
+
+
+🔰 INTRODUCTION
+This platform is designed as a powerful educational system for pro se litigants who need courtroom-level precision, without access to a licensed attorney. 
+
+
+It builds every case from the ground up — using AI agents that follow court rule logic, verify citations, protect user information, and enforce absolute legal boundaries.
+
+
+~~
+
+
+Audience: Pro se litigants, legal educators, researchers, and individuals facing civil rights violations or government overreach — especially in Texas and federal district courts.
+
+
+~~
+
+
+Legal Limitation: This platform provides education only. It does not offer legal representation or create any attorney clients provision
+
+
+The law allows for any one who represents their case in court, to have “legal counsel”, that is not defined as a lawyer. Which we are not.
+
+
+~~
+This whole system must be built to stand the test of time. The foundation must be built solid, like the pyramids.  There can be many tunnels and caverns and cubbies as needed because the base is the solid foundation for everything to build on.
+
+
+
+
+
+
+🧱 LAYER 1 — FOUNDATION
+
+
+
+
+
+
+*** System Architecture Principles
+* Each case has a Zero Case Bleed Rule: No information from one case can influence or appear in another. All cases are locked to unique ID numbers that the team will generate. Every case will be containerized 
+
+
+
+
+
+
+**** UPL Firewall Enforcement: 
+* The system is hardcoded to block any act that could be considered unauthorized practice of law. 
+* AI agents may not generate advice, recommend legal action, or modify user stories into legal strategies. 
+* They only clarify law, define rules, or verify what the user has already said.
+
+
+~~
+
+
+Agents are allowed to outline a strategy, recommend possible action. But the user is the deciding factor after being educated and informed. The user will always decide what actions they want to pursue.
+
+
+Absolutely NO altering of the user's story, information or words to make it fit into a legal position. 
+
+
+The system may clarify definitions, request more specificity, or flag gaps — but cannot interpret or translate a user’s experience into a cause of action without their direct input
+
+
+~~
+
+
+ *****Verified-Only Legal References: 
+* No legal draft is generated unless all legal citations have been verified by:
+                Source (statute, rule, case law)
+                Jurisdiction (Texas, federal, local)
+                Currency (active/not repealed)
+                User approval
+                NOTHING: is guessed
+
+
+Each reference is timestamped and logged 
+The reference agent is in charge of keeping this list organized and readily available 
+
+
+*** If verification fails, the system halts and questions the user.
+
+
+**** Case Isolation Protocol
+Unique Case IDs:** Every case the user opens is bound to a non-repeating ID. All facts, drafts, and memory are scoped to this ID.
+
+
+
+
+Session vs. Case Memory: Session memory is temporary. Case memory is persistent but locked to the case container.
+
+
+Locked Containers: All data (facts, evidence, drafts, timelines) lives in a case-specific container. No access by any other case or user.
+
+
+
+
+~~
+
+
+
+
+**** Breach Response Protocol
+Triggers:
+Jurisdiction conflict
+Citation mismatch
+UPL firewall breach
+Cross-case contamination
+
+
+Response:
+Immediate system halt.
+Case container lock.
+Rollback to last verified save point.
+Handler alert to inform user and request clarification or correction.
+
+
+
+
+
+
+
+
+🧱 LAYER 2 — WALLS (User Interface + Legal Boundaries)
+
+
+2.1 Dashboard Architecture
+What It Is:
+The visual interface layers users interact with. Each is designed for specific data visibility, role isolation, and contextual integrity.
+
+
+Dashboard #1
+Breakdown:
+Public View (Welcome + Info)  
+Anyone can access.
+Contains: About page, pricing (if/when monetized), usage disclaimers, FAQ, login/signup access.
+Goal: Educate new users, offer transparency, filter unserious users.
+
+
+Example public 
+The I understand agreement must be checked before the sign up or in become functional 
+
+
+  
+
+
+
+
+
+
+
+~~
+Dashboard #2
+
+
+User decides on 
+
+
+Private User Dashboard after sign in/up 
+User picks handler 
+And open any case they have.  If they don't have a case, then once a handler is picked, takes the user to dashboard #3
+  
+
+
+
+Dashboard #3
+Accessed after login.
+Case dashboard 
+Shows: all the agents with a scrolling Left side panel 
+Center area where the communication is happening 
+Right side panel has the currated check list being monitored by the Check list Agent 
+Once in
+
+
+  
+
+  
+
+
+
+
+
+Think: Personal control panel for the user’s legal fight.
+Case-Specific Dashboard
+
+
+
+
+Opens when the user selects or initiates a case.
+Strict isolation — only facts, evidence, timelines, documents, and prompts from this one case exist here.
+
+
+Case status, alerts, last update, submission timeline, and links to evidence, timelines, and drafts
+
+
+Zero Case Bleed is enforced here — no other case memory, no general AI memory leakage.
+Public Dashboard — Viewable without login. Includes “About,” pricing (if applicable), disclaimers, educational mission, and app overview. 
+
+
+
+
+
+
+~~~**** NOTE **** 
+
+
+******ALL AI Team ecosystem is in a separate file.******
+
+
+
+
+🧱 LAYER 3 — CIRCUITS (Internal Communications)
+
+
+3.1 Agent Dispatch Protocol
+What It Is:**
+This governs how tasks are assigned to the various agents behind the scenes after the user provides input. It ensures every agent stays in its lane and that all work is coordinated under the Commander’s control.
+
+
+🔧 Core Subsystems and Parameters
+
+
+* 1. Commander = Task Director
+The Commander is the central routing brain.
+Listens for contextual triggers (keywords, patterns, completed user statements).
+Dispatches tasks to the correct agent without overlap.
+Maintains a dispatch log for every action taken (timestamp, agent called, task completed).
+
+
+* 2. Strict Role Assignment
+Each agent may only perform their designated function — enforced by scoped permissions and call restrictions:
+🧠 Research Agent: Retrieves statutes, rules, and case law — cannot write documents or draft language.
+📄 Drafting Agent: Writes pleadings and legal forms — cannot fetch new law or perform validation.
+🕒 Timeline Agent: Extracts chronology — doesn’t assign legal value or create narrative claims.
+🧍 Entity Agent: Identifies persons, roles, agencies, and relationships — doesn’t evaluate legal responsibility.
+✔️ Final Check Agent: Verify everything that is being presented to the user is compliant with all the laws, rules, regulations etc…
+No agent may switch roles, improvise, or assume functions from another — all cross-role requests must be routed through the Commander.
+
+
+~~
+
+
+
+
+* 3. Dispatch Trigger Logic
+The system will route user input to the correct agent based on:
+
+
+Keyword Triggers (e.g., “officer,” “vehicle,” “detained” → Timeline + Entity)
+Handler Confirmation (e.g., user confirms excessive force details → Drafting triggered)
+Legal Sufficiency Threshold (e.g., minimum facts for Fourth Amendment claim confirmed → ResearchAgent called)
+
+
+~~
+
+
+* 4. Multi-Agent Collaboration Workflow
+When complex tasks require layered action:
+
+
+Commander sequences the chain. 
+
+
+Example:
+EntityAgent extracts “Officer Delgado” and “Matagorda County.”
+ResearchAgent verifies that Delgado was acting under color of law.
+DraftingAgent builds §1983 claim based on verified facts and law.
+Final Check Agent Verify everything and logs with timestamp and link for user to utilize the information for their own research 
+
+
+~~
+
+
+* 5. Fail-Safe Routing
+If a task fails or facts are incomplete:
+
+
+Commander pauses workflow and flags the Handler.
+Handler asks clarifying question to user (never improvises).
+No agents proceed until required facts are locked.
+Commander routes all tasks.
+Agents cannot self-deploy.
+Role jumping triggers a halt.
+All logic is logged with timestamps)
+
+
+The Commander is the sole dispatcher of tasks.
+• No agent may self-activate or act outside its role.
+• A Handler-confirmed user statement is parsed into signals.
+• Each agent receives specific data points via the Commander only
+
+
+Commander is the only agent who may assign or activate other agents.
+No agent may request tasks from another agent directly.
+All logic flows originate from the Handler → Commander → Task Agents
+
+
+If a user provides a legal fact (e.g., “officer shoved me”), the handler tags it, the Commander activates Entity Agent → Timeline Agent → Research Agent in sequence.
+Drafting Agent is never triggered without Commander verification.
+All agent actions must be traceable in the audit trail by source, time, and legal trigger
+
+
+~~
+
+
+* 3.2 Scoped Memory Management
+What It Is:
+Defines how the system handles, restricts, and routes memory — both during user sessions and across case-specific workflows — so no unauthorized access, data bleed, or cross-contamination occurs.
+
+
+~~
+🔧 Core Parameters and Controls
+1. Session Memory vs. Case Memory
+Session Memory = Temporary, volatile memory used during a single login session.
+
+
+Stores: Navigation history, active prompts, unsaved user thoughts.
+Wiped at logout or timeout.
+NEVER used for legal drafting or citation storage.
+Case Memory = Persistent, locked memory tied to a unique Case ID.
+
+
+Contains: All verified user inputs, legal element confirmations, document drafts, timelines, citations.
+Bound to user account + jurisdiction + timestamped logs.
+
+
+~~
+
+
+* 2. Source-Tagged Fact Objects
+All user inputs are:
+
+
+Converted into structured fact tokens
+
+
+Tagged with:
+
+
+Origin (direct user, handler, evidence upload)
+Time (when entered)
+Scope (which case)
+Legal Status (confirmed, disputed, pending)
+These tokens are the only inputs permitted to reach downstream agents (e.g., DraftingAgent, ResearchAgent).
+
+
+~~
+
+
+* 3. Case-Scoped Prompt Chains
+Every agent action is tied to the active case and dispatched using scoped prompt chains.
+
+
+Example:
+TimelineAgent only sees time events for the active case — even if the user discusses another case incidentally.
+If the user mentions “my other case” → system redirects to Handler for clarification, but does not auto-switch context.
+
+
+
+
+~~
+
+
+* 4. System Rejection Logic
+If:
+A user attempts to blend cases
+A citation originates from a mismatched jurisdiction
+An agent is triggered without validated context
+→ the system HALTS the action.
+
+
+Handler is alerted with a prompt to request clarification or redirect the user.
+No action proceeds without correct case scope and confirmation.
+Session vs. Case Memory
+
+
+Source-Tagged Fact Objects (user I put, images, files)
+Case-memory is Scoped to the ID and encrypted all case id numbers
+Session memory is temporary.
+• Case memory is persistent but scoped by Case ID.
+• Each fact is tagged with source, status, timestamp, and legal relevance.
+• Unconfirmed facts cannot be drafted or used in citations
+
+
+Session Memory: Used by Handler for general educational language and tone continuity.
+
+
+Case Memory: Contains all confirmed facts, citations, events, parties, and drafts. This memory is locked to the case container and cannot be accessed by global logic.
+
+
+Fact Objects: Every legally relevant input is stored as an object with metadata (source, timestamp, jurisdiction, confirmation status).
+
+
+Memory Flags: If an element changes (e.g., user edits timeline), dependent memory branches are flagged and agents must re-verify before re-use.
+
+
+~~
+
+
+* 3.3 Legal Citation Verification Engine
+
+
+*What It Is:**
+This governs how legal citations are sourced, validated, and approved for use in any drafting or document generation. It ensures jurisdictional accuracy and blocks unverified legal content.
+
+
+🔧 Core Subsystems and Protocols
+* 1. Citation Source Restrictions
+Only accepts citations from verified legal databases (e.g., Texas Legislature Online, casetext, govinfo, etc.).
+
+
+ResearchAgent must tag every citation with:
+* Jurisdiction (Federal / Texas / County-level if applicable)
+* Source link or statute ID
+* Currency check (e.g., “as of [Date]”)
+* Rule Type (Statute / Rule / Case Law / Local Rule)
+
+
+~~
+
+
+* 2. Jurisdiction Matching
+
+
+Each case is bound to a jurisdiction matrix:
+* Federal → determine what District of Texas + 5th Circuit
+* Texas → County-level court rules + Texas Court of Appeals + SCOTX
+* City citation cases → Municipal court rules (if mapped)
+* Any citation that falls outside this scope is automatically rejected or flagged.
+
+
+E.g., 9th Circuit case law in a Texas federal claim = blocked
+
+
+~~
+
+
+* 3. Citation Approval Loop
+
+
+Before any citation enters a draft:
+* Handler presents it to the user.
+* User must approve, deny, or request explanation.
+* Only user-approved citations proceed to DraftingAgent.
+
+
+Prevents:
+* Fabricated case law (hallucinations)
+* Misused statutes
+* Misquoted rules
+
+
+~~
+
+
+* 4. Audit Trail Enforcement
+
+
+Every citation used in the system is:
+* Logged with time/date of insertion
+* Tagged with user approval status
+* Linked to originating agent task
+* Enables the system to provide a full citation trace log on demand — useful for court filings, challenges to standing, or motions to dismiss.
+
+
+~~
+
+
+* 5. Citation Fail-Safes
+
+
+If a citation is:
+* Outdated
+* Mismatched to the type of claim (e.g., citing federal civil rights law in a breach of contract claim)
+* Used without user confirmation
+→ The system halts the draft, alerts the Commander, and prompts the Handler to request clarification or replacement.
+
+
+~~
+
+
+* Verified by Source, Jurisdiction, and Currency
+Cross-referenced against court hierarchy: SCOTUS > Circuit Court > District Court (federal); TX Supreme Court > TX Courts of Appeals > County/District Courts (Texas)
+Jurisdiction-specific logic routes citation sources correctly based on court of filing
+Automatic alerts for mismatched citation context
+No Drafted Output Without Citation Approval
+Full Audit Trail on All Legal References
+Citation audit logs include:
+Date retrieved
+Agent that pulled it
+User confirmation timestamp
+Jurisdictional context
+
+
+~~
+
+
+* 3.4 System Halt Triggers
+
+
+What It Is:
+This protocol defines exactly when the system must pause all downstream processing due to risk of legal error, procedural breach, or input ambiguity. It prevents contamination, misfiling, or unlawful generation of materials.
+
+
+🛑 Halt Conditions
+
+
+1. Jurisdiction Mismatch
+A citation, rule, or precedent is not from the applicable jurisdiction for the current case.
+
+
+E.g., citing SCOTUS in a municipal code enforcement action.
+Result: All agent tasks freeze. Handler prompts user for jurisdictional clarification or re-routing.
+
+
+2. Invalid or Unverified Source
+Legal references that cannot be traced to a legitimate, verifiable source.
+Hallucinated case law or improperly cited statutes.
+Result: ResearchAgent blocked. DraftingAgent disabled. Handler alert triggered.
+
+
+3. Cross-Case Contamination
+User attempts to reference facts or evidence from another case ID.
+E.g., “Just like in my eviction case…” while inside a civil rights case.
+Result: Handler immediately clarifies. No agent may act on cross-case data.
+
+
+4. Legal Element Not Confirmed
+DraftingAgent is triggered but:
+Essential facts (e.g., who, when, how) are missing
+Legal elements are not fully met or confirmed by user
+Result: Draft fails to initiate. Commander instructs Handler to re-prompt.
+
+
+~~
+
+
+🚦 Halt Mechanism and Recovery
+
+
+Workflow:
+Trigger detected by Commander or failed validation from ResearchAgent or DraftingAgent
+All tasks halted. Downstream flow blocked.
+
+
+Handler receives system prompt with:
+* Explanation of the issue
+* Clarifying question template for user
+* Once user confirms/fixes:
+Commander re-engages chain
+Block is lifted
+Agents resume from clean checkpoint
+
+
+~~
+
+
+🔐 Guarantee:
+No AI-generated output can be used or saved until all halt conditions are cleared, verified, and logged. This ensures every document, recommendation, or educational output maintains legal defensibility.
+
+
+Jurisdiction Mismatch
+Source Invalidation
+Missing User Confirmation on Legal Element
+• Citation invalid or overruled
+• Draft attempted with unconfirmed facts
+• Role violation by any agent
+• Cross-case memory use
+• Any violation halts all activity, rolls back, and notifies user
+
+
+~~
+
+
+
+
+~~
+
+
+🔐 SECURITY & ENCRYPTION MODEL
+
+
+User Data Isolation
+Encryption in Transit and Storage
+Case ID Hard Binding
+Export + Data Purge Controls
+AES-256 encryption in storage
+• TLS 1.3 live session protection
+• Data sandboxed by Case ID
+• User may export or purge case data at will
+• All breach events are logged and recoverable
+• Exported files include audit trail of citations, agent steps, and confirmation points
+This system treats every case like an active federal litigation file — confidential, scoped, and sealed unless released.
+
+
+~~
+
+
+1. Case Isolation
+All user data is bound to a unique Case ID
+
+
+No user or AI component may access another user’s case.
+
+
+Facts, citations, and drafts are encrypted and sandboxed per container.
+
+
+~~
+
+
+2. Encryption Standards
+AES-256 encryption is applied to all stored data.
+TLS 1.3 is used for all live sessions and file uploads.
+
+
+~~
+
+
+3. Data Control by User
+User may request export of full case file (ZIP, PDF, JSON).
+
+
+User may request purge of all data per jurisdictional eDiscovery or privacy standards.
+
+
+Export files are tagged with audit trails.
+
+
+~~
+
+
+4. Breach Handling Protocol
+If breach or unauthorized access attempt is detected:
+
+
+Case container locks.
+Session halts.
+All memory rolls back to last secure checkpoint.
+Handler is notified to alert user.
+Commander logs full activity trace.
+Nothing in the system continues execution until the issue is resolved or purged.
+
+
+Purpose:
+To ensure complete confidentiality, case isolation, and lawful handling of sensitive user data—especially given the legal nature of the platform and its use in adversarial proceedings.
+
+
+~~
+
+
+🔒 1. Data Isolation Protocol
+
+
+User-Level Isolation:
+* Each user profile is cryptographically separated.
+* No shared memory, no cross-user file access, even by mistake.
+* Case-Level Isolation:
+
+
+Every case is siloed using its unique Case ID.
+Memory, facts, drafts, evidence, and outputs are inaccessible to other cases — even by the same user.
+No Cross-Case Querying Allowed
+
+
+Agents are restricted to one case context at a time.
+Cross-reference attempts trigger a System Halt.
+
+
+~~
+
+
+🔐 2. Encryption Standards
+
+
+In Transit:
+* All user-agent and system-to-system communications use TLS 1.3 or equivalent.
+
+
+At Rest:
+* Files, case notes, and document drafts stored using AES-256 encryption.
+* File uploads are hashed and verified for integrity.
+
+
+
+
+Case ID Binding:
+* All storage keys are tied to the user + case ID.
+* Prevents external file injection or extraction.
+
+
+~~
+
+
+🧯 3. Breach Protocol & Data Integrity
+
+
+If breach attempt detected:
+* All agent dispatches freeze.
+* Handler notified of “System Lockdown Event.”
+* User alerted in plain language.
+* Memory is reverted to last verified secure state.
+* Nothing proceeds until all systems are reverified.
+
+
+~~
+
+
+Data Recovery:
+* Versioned backups exist for all draft artifacts, but only accessible within user + case bounds.
+* Only admin override access permitted by the user.
+
+
+~~
+
+
+🔁 4. Export + Data Purge Controls
+
+
+User Controls:
+* Can export case data in multiple formats.
+* Can request full data wipe per jurisdictional right (e.g., Texas State privacy laws or federal standards).
+
+
+System Controls:
+* Red-line content cannot be recovered after user-initiated purge.
+* Deleted cases remove all metadata, including tokens and logs.
+
+
+✅ USER OBLIGATIONS
+Must provide truthful information
+• Must confirm all fact phrasing used in legal analysis
+• Must review and approve every document output before use
+• Must acknowledge that this platform is educational only and not a substitute for legal counsel
+
+
+This section outlines what the user must agree to and uphold while using the platform. These obligations are non-negotiable and form the backbone of safe, lawful, and accurate system operation.
+📌 1. Provide Truthful and Complete Data
+All information entered must be factually accurate to the best of the user’s knowledge.
+Intentionally misleading, fabricated, or vague data will result in system halt and potential lockout.
+Case outcomes rely entirely on user-provided inputs.
+
+
+📌 2. Confirm Legal Elements Before Drafting
+No document will be generated until the user has confirmed:
+Parties involved (e.g., officer, judge, agency)
+Incident details (date, location, action)
+Legal trigger elements (e.g., “under color of law,” “deprivation of rights,” etc.)
+Confirmation is conducted via the Handler only — no silent assumptions.
+
+
+📌 3. Review and Approve All Citations
+Legal citations, statutes, and precedents must be manually approved before inclusion.
+The Handler will offer plain-language explanations upon request.
+Any unapproved legal material is automatically excluded from drafts.
+
+
+📌 4. Respect Educational Use Limitation
+This platform does not offer legal advice.
+All material is provided for educational and informational purposes.
+Users are solely responsible for verifying whether any material is submitted to court.
+
+
+📌 5. Protect Access Credentials
+Users are responsible for securing their login credentials.
+Sharing access across multiple people is prohibited.
+Violation may result in case lock or full user suspension.
+
+
+⚠️ Breach of Obligations
+
+
+Failure to follow any user obligation triggers:
+* Warning from the Handler
+* Temporary account lock or data isolation
+* Possible removal of unconfirmed drafts from the system
+
+
+
+
+
+
+
+
+4.1 Evidence Matrix Builder
+
+
+🔍 Purpose:
+To transform uploaded evidence into a litigation-ready matrix that:
+* Matches every document/image/screenshot to a legal claim
+* Shows gaps in factual proof
+* Flags missing elements needed to meet Rule 56 (summary judgment) or trial standards
+
+
+💡 Features:
+Column                                      Description
+
+
+
+
+📁 File ID                                     Internal reference to uploaded doc
+🕓 Date                                  Date of creation/event
+🔍 Linked Fact                             What part of the story it supports
+⚖️ Legal Element                        What claim or defense it relates to
+✅ Relevance Rating                AI-reviewed strength (user can override)
+📌 Status                        Verified, flagged, missing metadata
+
+
+~~
+
+
+🔐 Bound by:
+Case ID (no cross-case documents)
+User verification before linking
+Only documents explicitly uploaded by the user can be included
+Tags, catalogs, and relates uploaded evidence to each fact alleged
+Filters for type, relevance, and citation linkage
+
+
+~~
+
+
+* 4.2 Visual Timeline Builder
+🔍 Purpose:
+Auto-build a chronological map of the case — not just what happened, but how it unfolded legally.
+
+
+~~
+
+
+📐 Layers:
+🔹 User Input Events (e.g., “He towed my truck”)
+🔸 Entity Overlay (e.g., “Officer John Doe, Matagorda Co.”)
+⚖️ Legal Trigger Overlays (e.g., “Seizure w/o Warrant”, “Denial of Due Process”)
+📄 Linked Documents (e.g., Abatement Notice, Jail Receipt, Court Filing)
+📈 Visual Layout:
+Scrollable horizontal axis
+Zoom control: 1-day, 1-week, 1-month views
+Icons color-coded by type (event, document, violation, communication)
+
+
+~~
+
+
+💥 Power Feature:
+“Build from Handler Notes” — lets user trigger timeline construction from conversational logs.
+
+
+Chronological visualization of incident facts
+Ties facts to evidence + legal rules
+Identifies gaps in allegations
+
+
+~~
+
+
+4.3 Court Calendar Auto-Mapper
+
+
+📅 COURT CALENDAR AUTO-MAPPER
+🔍 Purpose:
+To ensure procedural deadlines aren’t missed — ever
+
+
+💡 Smart Logic:
+Monitors every court filing date
+
+
+Applies FRCP and TRCP rules for:
+* Answer deadlines
+* Motion response windows
+* Discovery cutoff
+* Pre-trial disclosures
+* Allows manual court input for specific local scheduling orders
+
+
+~~
+
+
+🔔 Alerts & Integration:
+
+
+Handler gives alerts like:
+“You have 3 days left to respond to Defendant’s Motion to Dismiss under Rule 12(b)(6). Would you like to review the timeline for drafting your response?”
+
+
+Exports to Google Calendar, iCal, and printable docket planner
+
+
+Auto-calculates deadlines based on FRCP, TRCP, and applicable local court rules (county/division jurisdiction specific)
+Adjusts dynamically if court is changed
+
+
+~~
+
+
+4.4 Mock Trial Simulation Mode
+🔍 Purpose:
+To prepare users to think, write, and speak like they’re in court — using the very evidence and law their real case involves.
+
+
+🧪 Simulation Types:
+🧑‍⚖️ Judge Q&A Simulation
+Prompts user with judicial questions like:
+
+
+“What specific fact in this record do you claim supports an unlawful seizure?”
+Handler pauses the system, lets user answer, then reviews the law and fact match.
+
+
+~~
+
+
+⚔️ Motion Showdown
+Simulates a defense motion to dismiss or summary judgment
+User must respond, AI agent scores strength of response based on verified law and evidence
+
+
+~~
+
+
+👩‍💼 Deposition Crossfire
+Simulates being questioned under oath — based on their own timeline and pleadings
+
+
+~~
+
+
+🔒 Safeguards:
+All mock trials are sandboxed to prevent accidental edits
+User must verify: “This is for simulation only” before entering
+Emulates courtroom environment with scenario-specific objection logic
+Trains user to respond using rule-verified prompts
+
+
+~~
+
+
+4.5 Jurisdiction Visual Map Module
+Shows user their place in state/federal hierarchy
+Links to applicable controlling precedent
+Labels local, intermediate, and high courts in user’s circuit
+
+
+
+
+
+
+📎 APPENDICES
+───────────────────────────────────────────────
+
+
+A. GLOSSARY OF AGENT ROLES
+
+
+• Handler (User Liaison)
+Sole point of contact with the user.
+Listens, educates, clarifies — but never advises.
+Translates user-provided information into actionable segments for the team.
+Triggers all internal activity but performs no drafting or research.
+
+
+• Commander (Operations Director):
+Assigns all tasks across the pipeline.
+Verifies rule compliance at each stage.
+Halts operations for security or procedural violations.
+Logs all agent activity and authorizes final output.
+
+
+• Timeline Agent:
+Receives unstructured events from Handler.
+Orders facts chronologically.
+Flags missing dates, ambiguous sequences, or inconsistencies.
+Locks timelines into case container.
+
+
+• Entity Agent:
+Extracts names, agencies, officers, and witnesses.
+Assigns role labels and relational context (e.g., "arresting officer," "plaintiff").
+Tracks unique identifiers (badge numbers, cause numbers).
+
+
+• Research Agent:
+Retrieves court-approved law: statutes, rules, precedent.
+Verifies citations by source, jurisdiction, and currency.
+Rejects expired or non-controlling law.
+Creates legal element maps tied to jurisdiction.
+
+
+• Drafting Agent:
+Receives only user-confirmed facts + verified law.
+Produces filings, declarations, motions, or pleadings.
+Flags any unresolved fact or legal gap before drafting.
+Never inserts legal conclusions.
+
+
+───────────────────────────────────────────────
+
+
+B. LEGAL REFERENCE STRUCTURE
+Each legal citation used in the system must conform to the following format and verification protocol using current valid information:
+
+
+• Statutes:
+Example: Tex. Transp. Code § 502.040(a)(2)
+Must include jurisdiction prefix (e.g., Tex., 42 U.S.C.)
+Verified against current official state or federal repositories
+
+
+• Court Rules:
+Example: Fed. R. Civ. P. 8(a)(2)
+Identified by rule system (e.g., TRCP, FRCP, Local Rule [example SDTX LR 7.1])
+Checked for current version at time of document generation
+
+
+• Case Law:
+Example: Hope v. Pelzer, 536 U.S. 730 (2002)
+Must include full citation, jurisdiction, and decision year
+Must match controlling court for user’s venue unless explicitly stated otherwise
+
+
+• Internal Citations:
+All references are tagged with:
+Case ID
+Source authority (e.g., TLO, Justia, Westlaw)
+Timestamp of verification
+
+
+───────────────────────────────────────────────
+
+
+C. JURISDICTIONAL HIERARCHY REFERENCE
+
+
+Each user’s case is mapped to its correct judicial environment. The following reference hierarchy is used to enforce legal accuracy:
+
+
+Texas State System (Simplified):
+Municipal / Justice Courts
+County Courts at Law / County Courts
+District Courts (General Jurisdiction)
+Court of Appeals (13 Regional Circuits)
+Texas Court of Criminal Appeals (criminal only)
+Texas Supreme Court (civil only)
+Federal System (Texas-based):
+U.S. District Court – (appropriate area) District of Texas (with appropriate Division)
+U.S. Court of Appeals – Fifth Circuit
+U.S. Supreme Court
+
+
+This hierarchy governs:
+Precedent validity
+Case routing
+Immunity module triggers
+Calendar deadline rules
+───────────────────────────────────────────────
+
+
+D. COMPLIANCE REPORT FORMAT
+
+
+Each document produced by the system may generate an internal compliance report to be optionally included in user exports.
+
+
+
+
+Report includes:
+• Case ID
+• Document Title
+• Generation Timestamp
+• Verified Citations List (with source + jurisdiction)
+• Agent Chain of Custody (Timeline → Entity → Research → Draft → Commander)
+• Checklist:
+        ☐ Verified Law Used
+        ☐ All Facts Confirmed by User
+        ☐ Draft Passed Commander Review
+        ☐ Jurisdiction Match Confirmed
+        ☐ No UPL Boundary Crossed
+        ☐ Breach Events: [None / Logged]
+• Export Signature:
+Handler ID + System Hashy
+
+
+~~
+
+
+
+
+~~
+
+
+Additional Some informational tabs need to be created 
+
+
+* 1. Creating a check list of relevant situations that need to be addressed, but may disrupt the flow of the information that is being presented, but is important to address at a later time, and can be clicked on each item in the list and discuss the issue. 
+
+
+
+
+📝 Additional information:  this is a zero budget operation.  Everything must be utilized for completely free channels.
+
+
+1. 🔒 Privacy: if possible give the user the option to have Everything run locally  on their devices if possible or with secure cloud APIs that requires no payment.
+2. 📁 Data Input: the user can be uploading all types of files or folders 
+3. 🧑‍⚖️ Jurisdiction:  focus only on Texas for all the courts, {Ex. civil, bankruptcy, criminal, family etc.}
+4. 🧑‍💻 Interface:  a web page that can be used as a desktop app, mobile app, browser app or download to users device 
+
+
+
+
+
+
+
+
+🚨 CRITICAL FOUNDATIONAL RULES (Built-in to the Bot Team)
+
+
+Rule                                                                Description
+
+
+🛑 NO hallucination                                        If no source in user data or Texas law.
+
+
+⚖️ Legal-First                                                Any theory MUST map to legal rules before being                                                                                                         carried forward
+
+
+📂 Case Isolation                                        Every case gets own storage, chat, documents,                                                                                                         images, memory
+
+
+📉 Rabbit Hole Mode                                        Bot may entertain theories, but cannot promote                                                                                                         them without proof and must get user approval                                                                                                         before including any information regarding the                                                                                                         research results 
+
+
+🧠 Memory Graph                                        Structured memory with sidebar tagging                                                         (violations, timeline, checklist, doc-gen etc.)
+
+
+---
+
+
+✅ Functional Tabs:
+
+
+
+
+Summary
+Violations (linked to parties + statute citation)
+Timeline (visual + live update)
+Parties (Plaintiff / Defendant + links to violations)
+Research (cross-referenced statutes, links, and legal reasoning)
+Checklist (real-time verification for legal points)
+Documents (list of to-generate docs)
+Rabbit Hole (theory-only banter zone)
+
+
+✅ Key Features:
+Upload .pdf, .docx, .jpg/.png file
+Assign unique Case ID
+Strict case isolation
+Auto preemption flags for:
+Sovereign Immunity
+Statute of Limitations
+Qualified Immunity
+Article 14.01(b) TX CCP
+---
+
+
+The user will be able to:
+
+
+Upload their docs
+Watch the team dissect them into the proper sections {ex..timelines, violations, people etc}
+Click a violation and get: TX code + justification + the angle the user can use 
+Use rabbit hole mode to throw crazy theories, and where the user can be challenged  — always within legal boundaries only and never included in the case until the user has explicitly signed off for this information to be included 
+
+
+Start building airtight docs and check off real-time verification points
+
+
+---
+
+
+This is a huge complex project, and i completely understand that, so now that you have the BIG PICTURE lets break it down into sections that will build the base and go up from there in smaller much easier handles.  So that no pebble is missed and nothing is out of order
+
+
+The law is very black and white, but the way that people approach it is not, and we must comply with all the ways the law allows the user to build a winning case.
+
+
+The end goal is always to build the best possible case for the user to WIN IN COURT

@@ -1,0 +1,193 @@
+﻿📜 DOCUMENT WORKFLOW PIPELINE
+
+
+TimelineAgent → EntityAgent → ResearchAgent → DraftAgent
+Handler Only Confirms or Clarifies
+Commander Oversees Entire Flow
+User describes event to Handler
+Handler confirms fact(s) and sends to Commander
+Commander activates Timeline and Entity Agents
+Research Agent retrieves relevant statutes/cases
+Drafting Agent assembles formatted document
+Handler walks user through each clause for review
+No document is finalized without explicit user signoff
+
+
+~~
+
+
+DOCUMENT WORKFLOW PIPELINE
+
+
+This platform operates under a strictly enforced workflow model designed to mimic the procedural rigor of a paralegal case team working under federal supervision. Each document created must pass through the following verified pipeline:
+
+
+**User Submission → Handler Capture:
+The Handler listens, clarifies, and confirms fact-specific user statements.
+
+
+No facts are rephrased or inferred; everything is stored as stated.
+
+
+~~
+
+
+**Timeline Agent → Chronology Lock:
+Facts are sequenced.
+
+
+Gaps are flagged.
+Events are timestamped when known or anchored logically.
+
+
+~~
+
+
+**Entity Agent → Party Identification:
+Names, roles, and relationships are extracted.
+Entities are checked for completeness and format.
+
+
+~~
+
+
+**Research Agent → Legal Hook Retrieval:
+Searches for verified statutes, constitutional provisions, and precedent.
+
+
+Pulls all elements required to support the claim.
+
+
+~~
+
+
+
+
+**Drafting Agent → Assembly:
+Builds the document using only user-confirmed facts and verified citations.
+
+
+Highlights any required sections the user hasn’t yet confirmed.
+
+
+~~
+
+
+**Commander Review:
+Verifies every link in the chain.
+
+
+Halts if any rule is broken or if citation is expired
+
+
+~~
+
+
+**Handler Review with User:
+Presents final draft.
+
+
+Offers educational breakdown of every clause.
+Waits for full user approval before release or export.
+
+
+~~
+
+
+Drafts are version-controlled. Nothing leaves the system without full verification and user confirmation
+
+
+Overview
+This pipeline defines the internal task sequence from user input → legal fact isolation → jurisdictional verification → drafting → user-approved final document.
+
+
+The process ensures:
+* No draft is generated without confirmed legal elements.
+* All agent roles are isolated.
+* Only documents grounded in verified law and fact are created.
+
+
+~~
+
+
+🔧 Step-by-Step Pipeline
+
+
+1. Handler Intake
+User speaks only to the Handler.
+Handler parses emotional/contextual input and flags potential legal elements.
+If a potential cause of action or fact pattern emerges, Handler passes structured queries to the Commander
+2. Commander Dispatch
+Commander routes subtasks to agents in the following sequence:
+* EntityAgent → Extracts all parties, roles, government affiliations.
+* TimelineAgent → Orders facts chronologically, identifies triggering events.
+* ResearchAgent → Confirms statutes, rules, precedent for legal sufficiency.
+* DraftingAgent → Begins document draft only after user has approved citations and legal thresholds.
+
+
+* 3. User-Guided Draft Confirmation
+DraftingAgent produces document using:
+* Scoped case memory
+* Approved citations only
+* Jurisdictional formatting (e.g., SDTX Local Rules if user is in Galveston Division)
+* Draft is returned to Handler for user review.
+
+
+~~
+
+
+
+
+User may:
+* Approve as-is
+* Request plain-language explanation
+* Edit with clarifying instructions
+
+
+~~
+
+
+4. Document Finalization
+Once approved, the system:
+* Locks the document to its Case ID
+* Logs source citations
+* Creates versioned backup
+* Offers download/export
+
+
+User can select:
+* Format (PDF, DOCX, Local Rule-compliant filing packet)
+* Attachment bundles (Exhibits, Declaration Templates, Service of Process Materials)
+* 🚫 Strict Safeguards
+
+
+No document reaches the user without:
+* Handler validation
+* User confirmation
+* Source-verifiable citations
+* Jurisdictional match
+*******No speculative claims, boilerplate filler, or unauthorized legal language is ever used
+
+
+Preemt example 
+
+
+5.1 Government Immunity Clause Modules
+
+
+A. Qualified Immunity (Public Officials)
+Counter-defensive language embedded only when defendant is a public official acting under color of law in a federal §1983 claim
+
+
+Based on Ashcroft v. al-Kidd, Hope v. Pelzer, Deville v. Marcantel, Behrens v. Pelletier
+Tailored per circuit (Fifth Circuit default for Texas cases)
+
+
+B. Individual Immunity (Non-Government Capacity)
+Used when defendants are not eligible for qualified immunity
+Language focuses on actions clearly outside any official protection
+
+
+C. Judicial and Prosecutorial Immunity
+Applied only where conduct exceeds judicial or prosecutorial scope
+Based on Mireles v. Waco, Kalina v. Fletcher
