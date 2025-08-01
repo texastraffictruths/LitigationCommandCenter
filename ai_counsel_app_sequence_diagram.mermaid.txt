@@ -1,0 +1,146 @@
+sequenceDiagram
+    participant User
+    participant UI as User Interface
+    participant CM as CaseManager
+    participant HA as HandlerAgent
+    participant AC as AgentCoordinator
+    participant CA as CommanderAgent
+    participant RA as ResearchAgent
+    participant DA as DraftingAgent
+    participant TA as TimelineAgent
+    participant EA as EntityAgent
+    participant FA as FinalCheckAgent
+    participant DM as DocumentManager
+    participant KB as KnowledgeBase
+    participant DB as Database
+    participant FS as File Storage
+
+    %% User Authentication and Case Creation Flow
+    User->>UI: Login (username, password)
+    UI->>+CM: authenticateUser(username, password)
+    CM->>DB: verify credentials
+    DB-->>CM: authentication result
+    CM-->>-UI: return AuthToken
+    UI-->>User: Display Dashboard
+
+    User->>UI: Create New Case
+    UI->>+CM: createCase(userId, caseData)
+    CM->>DB: store case data
+    DB-->>CM: return case ID
+    CM->>+HA: initialize Handler
+    HA->>AC: register with coordinator
+    AC-->>HA: confirmation
+    HA-->>-CM: handler initialized
+    CM-->>-UI: return Case object
+    UI-->>User: Display Case Dashboard
+
+    %% Document Upload and Analysis Flow
+    User->>UI: Upload Document
+    UI->>+DM: uploadDocument(caseId, file)
+    DM->>FS: store file
+    FS-->>DM: file stored
+    DM->>+AC: request document parsing
+    AC->>+CA: assign parsing task
+    CA->>+EA: extract entities
+    EA->>DM: read document
+    DM-->>EA: document content
+    EA-->>-CA: entity extraction result
+    CA->>+TA: analyze timeline
+    TA->>DM: read document
+    DM-->>TA: document content
+    TA-->>-CA: timeline analysis
+    CA-->>-AC: consolidated results
+    AC-->>-DM: parsing complete
+    DM-->>-UI: document processed
+    UI-->>User: Show extracted information
+
+    %% Legal Research Flow
+    User->>UI: Ask Legal Question
+    UI->>+HA: sendMessage(caseId, question)
+    HA->>+AC: request research
+    AC->>+CA: assign research task
+    CA->>+RA: researchLegalQuestion(question, jurisdiction)
+    RA->>+KB: query legal database
+    KB-->>-RA: legal information
+    RA-->>-CA: research findings
+    CA-->>-AC: research result
+    AC-->>-HA: research answer
+    HA-->>-UI: formatted response
+    UI-->>User: Display Answer with Citations
+
+    %% Document Generation Flow
+    User->>UI: Generate Document
+    UI->>+DM: generateDocument(caseId, templateId)
+    DM->>+AC: request document generation
+    AC->>+CA: assign drafting task
+    CA->>+DA: createDocument(templateId, caseData)
+    DA->>DM: get template
+    DM-->>DA: document template
+    DA->>+RA: verify citations
+    RA->>KB: check citations
+    KB-->>RA: verification results
+    RA-->>-DA: verified citations
+    DA-->>-CA: draft document
+    CA->>+FA: validateDocument(documentDraft)
+    FA-->>-CA: validation results
+    CA-->>-AC: verified document
+    AC-->>-DM: generation complete
+    DM->>FS: save document
+    FS-->>DM: document saved
+    DM-->>-UI: document ready
+    UI-->>User: Preview Document
+
+    %% Mock Trial Preparation Flow
+    User->>UI: Start Mock Trial
+    UI->>+HA: requestMockTrial(caseId, trialType)
+    HA->>+AC: coordinate mock trial
+    AC->>+CA: set up trial simulation
+    CA->>+RA: gather relevant precedents
+    RA->>KB: search case law
+    KB-->>RA: relevant cases
+    RA-->>-CA: legal background
+    CA-->>-AC: trial prepared
+    AC-->>-HA: trial questions
+    HA-->>-UI: begin mock trial
+    UI-->>User: Display First Question
+
+    User->>UI: Answer Question
+    UI->>+HA: submitAnswer(answer)
+    HA->>+AC: evaluate answer
+    AC->>+CA: process answer
+    CA->>+FA: analyzeLegalArgument(answer)
+    FA-->>-CA: argument analysis
+    CA-->>-AC: feedback prepared
+    AC-->>-HA: detailed feedback
+    HA-->>-UI: present feedback
+    UI-->>User: Display Feedback and Next Question
+
+    %% Case Timeline Analysis Flow
+    User->>UI: View Timeline
+    UI->>+CM: getCase(caseId)
+    CM->>DB: retrieve case data
+    DB-->>CM: case data
+    CM-->>-UI: case with timeline
+    UI->>+AC: analyzeTimelineConsistency(caseId)
+    AC->>+CA: assign timeline analysis
+    CA->>+TA: analyzeTimeline(timeline)
+    TA-->>-CA: timeline analysis
+    CA-->>-AC: analysis results
+    AC-->>-UI: timeline insights
+    UI-->>User: Display Timeline with Insights
+
+    %% Document Export Flow
+    User->>UI: Export Document
+    UI->>+DM: exportDocument(documentId, format)
+    DM->>+AC: request final check
+    AC->>+CA: assign final verification
+    CA->>+FA: performFinalCheck(documentId)
+    FA->>DM: get document
+    DM-->>FA: document content
+    FA-->>-CA: verification complete
+    CA-->>-AC: document verified
+    AC-->>-DM: ready for export
+    DM->>FS: retrieve document
+    FS-->>DM: document content
+    DM-->>-UI: formatted export file
+    UI-->>User: Download Document
